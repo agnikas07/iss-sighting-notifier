@@ -60,7 +60,7 @@ This project is written in **Python 3.9** (or newer). The following Python libra
 
 **Config File**
 
-You will need to create a config/.env file for this project, which needs to be structured like the following:
+You will need to create a config/.env file for this project which will contain your sensitive data.  The file needs to be structured like the following:
 
 ```
 # API Keys
