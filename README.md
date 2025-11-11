@@ -54,3 +54,32 @@ This project is written in **Python 3.9** (or newer). The following Python libra
 * **requests**
 * **python-dateutil**
 * **alexapy**
+  
+
+---
+
+**Config File**
+
+You will need to create a config/.env file for this project, which needs to be structured like the following:
+
+```
+# API Keys
+N2YO_API_KEY = "Your N2YO API key"
+OWM_API_KEY = "Your OpenWeatherMap API key"
+
+# Location Settings
+MY_LAT = Your viewing location's latitude
+MY_LONG = Your viewing location's longitude
+MY_ALT = Your viewing location's altitude/elevation
+
+# Notification Setting
+ALEXA_EMAIL = "your-amazon-email@example.com"
+ALEXA_PASSWORD = "your-amazon-password"
+ALEXA_URL = "alexa.amazon.com"
+
+# Sighting Filters
+# These values are just fine, but you can tweak them if you'd like.
+MIN_BRIGHTNESS = 0
+MAX_CLOUD_COVER = 30
+BEDTIME = "21:00"
+```
