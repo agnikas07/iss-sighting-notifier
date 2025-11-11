@@ -2,7 +2,6 @@ import requests
 import config
 import json
 import datetime
-from dateutil import parser as dateutil_parser
 from dateutil import tz
 
 
